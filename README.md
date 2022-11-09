@@ -1,0 +1,1 @@
+# loldle-score-bot
