@@ -6,7 +6,7 @@ WORKDIR /usr/src/bot
 
 # Copy and install bot
 COPY package.json /usr/src/bot
-RUN npm install
+RUN npm install discord.js dotenv
 
 COPY . /usr/src/bot
 
